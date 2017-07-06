@@ -108,7 +108,7 @@ public abstract class AbsRecyclerViewAdapter extends
 
 
         @SuppressWarnings("unchecked")
-        public <T extends View> T $(@IdRes int id) {
+        public <T extends View> T findView(@IdRes int id) {
             return (T) parentView.findViewById(id);
         }
     }

@@ -82,11 +82,11 @@ public class UpperResultsAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mUserAvatar = $(R.id.item_avatar_view);
-            mUserName = $(R.id.item_user_name);
-            mUserFans = $(R.id.item_user_fans);
-            mUserVideos = $(R.id.item_user_videos);
-            mDesc = $(R.id.item_user_details);
+            mUserAvatar = findView(R.id.item_avatar_view);
+            mUserName = findView(R.id.item_user_name);
+            mUserFans = findView(R.id.item_user_fans);
+            mUserVideos = findView(R.id.item_user_videos);
+            mDesc = findView(R.id.item_user_details);
         }
     }
 }

@@ -96,13 +96,13 @@ public class AttentionDynamicAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mAvatar = $(R.id.item_user_avatar);
-            mName = $(R.id.item_user_name);
-            mUpdateTime = $(R.id.item_update_time);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mPlay = $(R.id.item_play);
-            mReview = $(R.id.item_review);
+            mAvatar = findView(R.id.item_user_avatar);
+            mName = findView(R.id.item_user_name);
+            mUpdateTime = findView(R.id.item_update_time);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mPlay = findView(R.id.item_play);
+            mReview = findView(R.id.item_review);
         }
     }
 }

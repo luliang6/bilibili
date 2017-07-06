@@ -130,16 +130,16 @@ public class BangumiDetailsHotCommentAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mUserAvatar = $(R.id.item_user_avatar);
-            mUserName = $(R.id.item_user_name);
-            mUserLv = $(R.id.item_user_lever);
-            mUserSex = $(R.id.item_user_sex);
-            mFloor = $(R.id.item_comment_floor);
-            mCommentTime = $(R.id.item_comment_time);
-            mCommentNum = $(R.id.item_comment_num);
-            mSpot = $(R.id.item_comment_spot);
-            mContent = $(R.id.item_comment_content);
-            mLine = $(R.id.line);
+            mUserAvatar = findView(R.id.item_user_avatar);
+            mUserName = findView(R.id.item_user_name);
+            mUserLv = findView(R.id.item_user_lever);
+            mUserSex = findView(R.id.item_user_sex);
+            mFloor = findView(R.id.item_comment_floor);
+            mCommentTime = findView(R.id.item_comment_time);
+            mCommentNum = findView(R.id.item_comment_num);
+            mSpot = findView(R.id.item_comment_spot);
+            mContent = findView(R.id.item_comment_content);
+            mLine = findView(R.id.line);
         }
     }
 }

@@ -74,8 +74,8 @@ public class SpecialVideoRecyclerAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mPreviewImage = $(R.id.item_img);
-            mSpNum = $(R.id.item_title);
+            mPreviewImage = findView(R.id.item_img);
+            mSpNum = findView(R.id.item_title);
         }
     }
 }

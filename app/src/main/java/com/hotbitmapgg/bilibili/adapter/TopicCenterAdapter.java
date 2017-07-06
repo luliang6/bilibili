@@ -72,8 +72,8 @@ public class TopicCenterAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_image);
-            mTitle = $(R.id.item_title);
+            mImage = findView(R.id.item_image);
+            mTitle = findView(R.id.item_title);
         }
     }
 }

@@ -78,11 +78,11 @@ public class UserContributeVideoAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mVideoPic = $(R.id.item_img);
-            mVideoTitle = $(R.id.item_title);
-            mVideoUserInfo = $(R.id.item_user_name);
-            mVideoPlayNum = $(R.id.item_play);
-            mVideoReviewNum = $(R.id.item_review);
+            mVideoPic = findView(R.id.item_img);
+            mVideoTitle = findView(R.id.item_title);
+            mVideoUserInfo = findView(R.id.item_user_name);
+            mVideoPlayNum = findView(R.id.item_play);
+            mVideoReviewNum = findView(R.id.item_review);
         }
     }
 }

@@ -80,9 +80,9 @@ public class ActivityCenterAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_image);
-            mTitle = $(R.id.item_title);
-            mState = $(R.id.item_state);
+            mImage = findView(R.id.item_image);
+            mTitle = findView(R.id.item_title);
+            mState = findView(R.id.item_state);
         }
     }
 }

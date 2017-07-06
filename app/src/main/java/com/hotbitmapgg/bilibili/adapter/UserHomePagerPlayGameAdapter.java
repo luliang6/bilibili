@@ -79,9 +79,9 @@ public class UserHomePagerPlayGameAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mDesc = $(R.id.item_desc);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mDesc = findView(R.id.item_desc);
         }
     }
 }

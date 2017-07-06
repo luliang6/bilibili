@@ -72,8 +72,8 @@ public class BangumiIndexAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImageView = $(R.id.item_img);
-            mTextView = $(R.id.item_title);
+            mImageView = findView(R.id.item_img);
+            mTextView = findView(R.id.item_title);
         }
     }
 }

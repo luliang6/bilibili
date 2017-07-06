@@ -75,8 +75,8 @@ public class HomeRegionItemAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mItemIcon = $(R.id.item_icon);
-            mItemText = $(R.id.item_title);
+            mItemIcon = findView(R.id.item_icon);
+            mItemText = findView(R.id.item_title);
         }
     }
 }

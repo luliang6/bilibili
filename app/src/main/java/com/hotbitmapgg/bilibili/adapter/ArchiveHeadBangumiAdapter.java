@@ -83,10 +83,10 @@ public class ArchiveHeadBangumiAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mBangumiPic = $(R.id.item_img);
-            mBangumiTitle = $(R.id.item_title);
-            mBangumiDetails = $(R.id.item_details);
-            mBangumiCount = $(R.id.item_count);
+            mBangumiPic = findView(R.id.item_img);
+            mBangumiTitle = findView(R.id.item_title);
+            mBangumiDetails = findView(R.id.item_details);
+            mBangumiCount = findView(R.id.item_count);
         }
     }
 }

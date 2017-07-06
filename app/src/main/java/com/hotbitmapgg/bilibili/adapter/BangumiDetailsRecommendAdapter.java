@@ -84,9 +84,9 @@ public class BangumiDetailsRecommendAdapter extends AbsRecyclerViewAdapter {
         public ItemViewHolder(View itemView) {
 
             super(itemView);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mFollow = $(R.id.item_follow);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mFollow = findView(R.id.item_follow);
         }
     }
 }

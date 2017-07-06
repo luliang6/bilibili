@@ -81,10 +81,10 @@ public class NewBangumiSerialAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mPlay = $(R.id.item_play);
-            mUpdate = $(R.id.item_update);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mPlay = findView(R.id.item_play);
+            mUpdate = findView(R.id.item_update);
         }
     }
 }

@@ -81,10 +81,10 @@ public class UserHomePagerContributeAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mVideoPic = $(R.id.item_img);
-            mVideoTitle = $(R.id.item_title);
-            mVideoPlayNum = $(R.id.item_play);
-            mVideoReviewNum = $(R.id.item_review);
+            mVideoPic = findView(R.id.item_img);
+            mVideoTitle = findView(R.id.item_title);
+            mVideoPlayNum = findView(R.id.item_play);
+            mVideoReviewNum = findView(R.id.item_review);
         }
     }
 }

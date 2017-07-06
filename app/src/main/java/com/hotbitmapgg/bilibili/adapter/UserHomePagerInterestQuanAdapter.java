@@ -87,13 +87,13 @@ public class UserHomePagerInterestQuanAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mDesc = $(R.id.item_desc);
-            mPostNickName = $(R.id.item_post_nickname);
-            mPostCount = $(R.id.item_post_count);
-            mMemberNickName = $(R.id.item_member_nickname);
-            mMemberCount = $(R.id.item_member_count);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mDesc = findView(R.id.item_desc);
+            mPostNickName = findView(R.id.item_post_nickname);
+            mPostCount = findView(R.id.item_post_count);
+            mMemberNickName = findView(R.id.item_member_nickname);
+            mMemberCount = findView(R.id.item_member_count);
         }
     }
 }

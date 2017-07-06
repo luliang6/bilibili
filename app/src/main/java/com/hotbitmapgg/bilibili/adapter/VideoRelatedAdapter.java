@@ -80,11 +80,11 @@ public class VideoRelatedAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mVideoPic = $(R.id.item_img);
-            mVideoTitle = $(R.id.item_title);
-            mVideoPlayNum = $(R.id.item_play);
-            mVideoReviewNum = $(R.id.item_review);
-            mUpName = $(R.id.item_user_name);
+            mVideoPic = findView(R.id.item_img);
+            mVideoTitle = findView(R.id.item_title);
+            mVideoPlayNum = findView(R.id.item_play);
+            mVideoReviewNum = findView(R.id.item_review);
+            mUpName = findView(R.id.item_user_name);
         }
     }
 }

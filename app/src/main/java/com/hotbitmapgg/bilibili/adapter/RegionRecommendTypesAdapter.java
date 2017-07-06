@@ -60,8 +60,8 @@ public class RegionRecommendTypesAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mIcon = $(R.id.item_icon);
-            mTitle = $(R.id.item_title);
+            mIcon = findView(R.id.item_icon);
+            mTitle = findView(R.id.item_title);
         }
     }
 }

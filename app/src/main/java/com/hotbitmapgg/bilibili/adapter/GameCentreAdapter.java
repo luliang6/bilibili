@@ -80,10 +80,10 @@ public class GameCentreAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImageView = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mDesc = $(R.id.item_desc);
-            mButton = $(R.id.item_btn);
+            mImageView = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mDesc = findView(R.id.item_desc);
+            mButton = findView(R.id.item_btn);
         }
     }
 }

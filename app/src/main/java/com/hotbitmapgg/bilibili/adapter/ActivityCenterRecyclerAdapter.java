@@ -72,8 +72,8 @@ public class ActivityCenterRecyclerAdapter extends AbsRecyclerViewAdapter {
         public ItemViewHolder(View itemView) {
 
             super(itemView);
-            mVideoImg = $(R.id.video_preview);
-            mVideoTitle = $(R.id.video_title);
+            mVideoImg = findView(R.id.video_preview);
+            mVideoTitle = findView(R.id.video_title);
         }
     }
 }

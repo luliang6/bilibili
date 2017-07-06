@@ -80,11 +80,11 @@ public class SpResultsAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
-            mVideo = $(R.id.item_video);
-            mPlay = $(R.id.item_play);
-            mDesc = $(R.id.item_details);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
+            mVideo = findView(R.id.item_video);
+            mPlay = findView(R.id.item_play);
+            mDesc = findView(R.id.item_details);
         }
     }
 }

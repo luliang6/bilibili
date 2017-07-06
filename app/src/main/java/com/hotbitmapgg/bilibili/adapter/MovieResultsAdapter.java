@@ -73,8 +73,8 @@ public class MovieResultsAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mImage = $(R.id.item_img);
-            mTitle = $(R.id.item_title);
+            mImage = findView(R.id.item_img);
+            mTitle = findView(R.id.item_title);
         }
     }
 }

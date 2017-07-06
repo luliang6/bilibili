@@ -80,8 +80,8 @@ public class BangumiDetailsSeasonsAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mCardView = $(R.id.card_view);
-            mSeasons = $(R.id.tv_seasons);
+            mCardView = findView(R.id.card_view);
+            mSeasons = findView(R.id.tv_seasons);
         }
     }
 }

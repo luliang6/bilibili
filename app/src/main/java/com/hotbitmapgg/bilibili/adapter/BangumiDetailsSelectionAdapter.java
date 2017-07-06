@@ -86,9 +86,9 @@ public class BangumiDetailsSelectionAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mCardView = $(R.id.card_view);
-            mIndex = $(R.id.tv_index);
-            mTitle = $(R.id.tv_title);
+            mCardView = findView(R.id.card_view);
+            mIndex = findView(R.id.tv_index);
+            mTitle = findView(R.id.tv_title);
         }
     }
 }

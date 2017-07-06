@@ -101,12 +101,12 @@ public class AllAreasRankAdapter extends AbsRecyclerViewAdapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            mVideoImg = $(R.id.item_img);
-            mVideoTitle = $(R.id.item_title);
-            mVideoPlayNum = $(R.id.item_play);
-            mVideoReviewCount = $(R.id.item_review);
-            mSortNum = $(R.id.item_sort_num);
-            mUserName = $(R.id.item_user_name);
+            mVideoImg = findView(R.id.item_img);
+            mVideoTitle = findView(R.id.item_title);
+            mVideoPlayNum = findView(R.id.item_play);
+            mVideoReviewCount = findView(R.id.item_review);
+            mSortNum = findView(R.id.item_sort_num);
+            mUserName = findView(R.id.item_user_name);
         }
     }
 }
